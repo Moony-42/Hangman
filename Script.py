@@ -8,7 +8,7 @@ def display1():
         if deathstate==1:
             #tk for hangman state 1
             print()
-            #proceed similarly for 6 states of death of hangman
+            #proceed similarly for 7 states of death of hangman
         
     if gameon==False:
         print()
@@ -35,7 +35,7 @@ def get_secret_word():
     return random_wordbank[pick_word]
 
 secret= get_secret_word()
-turns = 6
+turns = 7
 fails=0
 def getvowels(secret):
     vow=['a','e','i','o','u']
